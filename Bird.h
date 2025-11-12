@@ -1,14 +1,16 @@
 #ifndef BIRD_H
 #define BIRD_H
 
-#include "Animal.h"
+class Bird{
+private:
+    float wingSpan;
+public:
+    Bird();
+    Bird(float wingSpan);
+    ~Bird();
+    void setwingSpan();
+    float getwingSpan();
 
-//define class bird here 
 
-
-
-
-
-
-
+};
 #endif
